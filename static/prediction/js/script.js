@@ -36,7 +36,7 @@ function onPageLoad() {
 		console.log("Bathrooms: ", bathrooms);
 		console.log("Sqft: ", sqft_living);
 
-		var url = "http://127.0.0.1:8000/home/";
+		var url = "/";
 		$.ajax({
 			type: "POST",
 			url: url,
